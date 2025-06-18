@@ -34,6 +34,18 @@ A beginner‑friendly project skeleton for experimenting with image recognition 
 
 ---
 
+## Day3
+
+### Pixel Color Picker
+- A simple mini project to apply what I learned in Day 1 and Day 2
+- Some extra stuff like mouse event was also learned during the process of creation
+    - mouse_click(event, x, y, flags, param)
+        - event – integer code such as cv2.EVENT_LBUTTONDOWN.
+        - x,y - mouse coordinates in the window.
+        - flags – bit‑mask of modifier keys/buttons pressed.
+        - param – anything you want; defaults to None.
+    - cv2.setMouseCallback('Image', mouse_click)
+
 ✨ Keep Learning !! ✨
 
 
