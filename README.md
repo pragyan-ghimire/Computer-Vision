@@ -22,4 +22,18 @@ A beginner‑friendly project skeleton for experimenting with image recognition 
     - isTrue, frame = capture.read(), capture.read() returns a bool and frame of image
     - cv.imshow('win_name', frame), to show each frame of video
 
+---
+
+## Day2
+### Rescale Image and Videos
+- resize() function of cv was explored
+
+### Draw on Image
+- Learned to create blank image
+- Learned to draw rectangle, circle, line and write text.
+
+---
+
+✨ Keep Learning !! ✨
+
 
