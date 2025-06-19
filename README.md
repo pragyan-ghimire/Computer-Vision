@@ -46,6 +46,20 @@ A beginner‑friendly project skeleton for experimenting with image recognition 
         - param – anything you want; defaults to None.
     - cv2.setMouseCallback('Image', mouse_click)
 
+---
+
+## Day4
+   Remember Image is just an array of pixels.
+### Essential functions of open cv
+- Converting image to gray scale: cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+- Bluring the image: cv.GaussianBlur(img, (3,3), cv.BORDER_DEFAULT)
+- Edge cascading: cv.Canny(img, 125, 175)
+- Dilating image: cv.dilate(canny, (7,7), iterations= 1)
+- Eroding dialted image: cv.erode(dilated, (3,3), iterations= 1)
+- Resize image: cv.resize(img, (500,500), interpolation= cv.INTER_AREA)
+- Cropping image: cropped = img[50:200, 200:400]
+
+---
 ✨ Keep Learning !! ✨
 
 
