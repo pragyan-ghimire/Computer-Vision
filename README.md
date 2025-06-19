@@ -59,6 +59,9 @@ A beginner‑friendly project skeleton for experimenting with image recognition 
 - Resize image: cv.resize(img, (500,500), interpolation= cv.INTER_AREA)
 - Cropping image: cropped = img[50:200, 200:400]
 
+### Transformations
+- Translate, Scale, Rotate, crop and flip
+
 ---
 ✨ Keep Learning !! ✨
 
