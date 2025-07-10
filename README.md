@@ -63,6 +63,20 @@ A beginner‑friendly project skeleton for experimenting with image recognition 
 - Translate, Scale, Rotate, crop and flip
 
 ---
+
+## Day5
+### Contours
+- Contour are the curves that connect continuous points along the boundary of an object, surface that shares the same color or intensity.
+- The contours of canny edges were not much different
+- **cv2.findContours** detect contours in binary images(obtained after edge detection or thresholding)
+- **cv2.drawcontours** draws the detected contours on image.
+
+### Color Spaces
+- There are various color spaces that are available.
+- The default color space for opencv is BGR.( outside opencv RGB is accepted.)
+- We can convert from BGR to different color spaces and vice-versa. But the direct conversion from one color space to another( where one of them is not BGR ) is not available.
+
+---
 ✨ Keep Learning !! ✨
 
 
