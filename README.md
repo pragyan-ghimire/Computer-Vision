@@ -77,6 +77,13 @@ A beginner‑friendly project skeleton for experimenting with image recognition 
 - We can convert from BGR to different color spaces and vice-versa. But the direct conversion from one color space to another( where one of them is not BGR ) is not available.
 
 ---
+
+## Day6
+
+### Color Channels
+-  We can split a multi-channel image into its individual single-channel components using **cv2.split()** functions and merge single-channel images together to form multi-channel image using **cv2.merge()** function. 
+
+---
 ✨ Keep Learning !! ✨
 
 
