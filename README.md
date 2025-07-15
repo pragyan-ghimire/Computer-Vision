@@ -84,6 +84,24 @@ A beginner‑friendly project skeleton for experimenting with image recognition 
 -  We can split a multi-channel image into its individual single-channel components using **cv2.split()** functions and merge single-channel images together to form multi-channel image using **cv2.merge()** function. 
 
 ---
+
+## Day7
+
+### Blurring Techniques
+They are used for smoothing pictures/images.  The kernel size determines the area of the input that the filter considers at each step. 
+Larger kernels can capture more global context and larger patterns, while smaller kernels focus on finer details. 
+- **Average Blurring**: Used to reduce image detail and noise by averaging the pixel values within a defined neighborhood.
+- **Gausian Blurring**: This method applies a Gaussian filter to the image, which is a weighted average of the pixels.
+- **Median Blurring**: This method replaces each pixel's value with the median of its neighbors.
+- **Bilateral Blurring**: This method applies a bilateral filter to the image, which is a combination of Gaussian filtering and edge-preserving smoothing.
+
+### Bitwise Operation
+- **Bitwise AND :** returns the intersection of the two regions
+- **Bitwise OR :** returns the union of the two regions
+- **Bitwise XOR :** returns the non-intersection of the two regions
+- **Bitwise NOT :** returns inverse of a region
+
+---
 ✨ Keep Learning !! ✨
 
 
