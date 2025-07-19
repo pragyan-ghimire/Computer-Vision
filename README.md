@@ -102,6 +102,18 @@ Larger kernels can capture more global context and larger patterns, while smalle
 - **Bitwise NOT :** returns inverse of a region
 
 ---
+
+## Day8
+
+### Masking
+- Image masking in OpenCV involves isolating a specific region of interest within an image
+
+### Histogram
+- We can find histogram for grayscale or colourful images.
+- Histogram is a plot of no. of pixels vs pixel values.
+- It helps to analyze the image (contrast, brightness, intensity distribution etc)
+
+---
 ✨ Keep Learning !! ✨
 
 
