@@ -113,6 +113,15 @@ Larger kernels can capture more global context and larger patterns, while smalle
 - Histogram is a plot of no. of pixels vs pixel values.
 - It helps to analyze the image (contrast, brightness, intensity distribution etc)
 
+### Thresholding
+- It is used to convert a grayscale image into a binary image, where pixels are assigned either a 0 or 255 value.
+- **Simple Thresholding:** A single, fixed threshold value is applied across the entire image.
+- **Adaptive Thresholding:** Different threshold values are calculated for different regions of the image.
+
+### Gradient
+- A gradient measures how the intensity (brightness) of an image changes at each pixel.
+- 
+
 ---
 ✨ Keep Learning !! ✨
 
