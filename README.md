@@ -120,7 +120,14 @@ Larger kernels can capture more global context and larger patterns, while smalle
 
 ### Gradient
 - A gradient measures how the intensity (brightness) of an image changes at each pixel.
-- 
+
+---
+
+## Day9
+### Face Detection with Harr Cascade
+- Haar Cascade classifiers are a machine learning-based method for object/Face detection
+- Haar Cascade uses Haar-like features (intensity differences)
+- It's trained on positive and negative images.
 
 ---
 ✨ Keep Learning !! ✨
